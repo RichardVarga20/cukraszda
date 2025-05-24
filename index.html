@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro Patisserie - Luxus Cukrászda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <i class="fas fa-crown"></i>
+                <span>MAESTRO</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <i class="fas fa-crown"></i>
+                    <span class="brand-text">MAESTRO</span>
+                    <span class="brand-subtitle">PATISSERIE</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Kezdőlap</a></li>
+                        <li><a href="#about" class="nav-link">Történetünk</a></li>
+                        <li><a href="#collections" class="nav-link">Kollekciók</a></li>
+                        <li><a href="#masterpieces" class="nav-link">Mesterművek</a></li>
+                        <li><a href="#atelier" class="nav-link">Műhely</a></li>
+                        <li><a href="#contact" class="nav-link">Kapcsolat</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-actions">
+                    <button class="reservation-btn">Foglalás</button>
+                    <div class="cart-container">
+                        <button class="cart-btn" id="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count" id="cart-count">0</span>
+                        </button>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <img src="https://d23hgm0tds3lcv.cloudfront.net/wp-content/uploads/2022/11/22-10-Wholesale-Bakery-Bread-Pastry-WEB-0233-Edit-1-940x627.jpg" alt="Luxury Pastries" class="hero-image">
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">L'Art de la</span>
+                        <span class="title-line highlight">Pâtisserie</span>
+                    </h1>
+                    <p class="hero-description">
+                        Ahol a hagyományos francia cukrászat találkozik a modern művészettel. 
+                        Minden alkotásunk egy egyedi mesterművet képvisel.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Kollekciók megtekintése</button>
+                        <button class="btn btn-outline">Asztalfoglalás</button>
+                    </div>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1987</span>
+                        <span class="stat-label">Alapítás éve</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Michelin csillag</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Nemzetközi díj</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Történetünk</span>
+                <h2 class="section-title">Három évtized a tökéletesség szolgálatában</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-block">
+                        <h3>A kezdetek</h3>
+                        <p>1987-ben alapította Jean-Pierre Dubois mester, aki a párizsi Le Cordon Bleu-ban tanulta a francia cukrászat titkait. Víziója egy olyan hely létrehozása volt, ahol a hagyományos technikák és a modern innováció tökéletes harmóniában egyesül.</p>
+                    </div>
+                    
+                    <div class="text-block">
+                        <h3>A filozófia</h3>
+                        <p>Minden alkotásunk mögött évszázados hagyományok és a legfinomabb alapanyagok állnak. Csak a legjobb francia vajat, belga csokoládét és madagaszkári vaníliát használjuk. Minden sütemény kézzel készül, egyedi figyelemmel és szeretettel.</p>
+                    </div>
+                    
+                    <div class="awards">
+                        <div class="award-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>World Pastry Champion 2019</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-star"></i>
+                            <span>Michelin Guide Excellence</span>
+                        </div>
+                        <div class="award-item">
+                            <i class="fas fa-medal"></i>
+                            <span>European Pastry Guild</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Master Chef">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h4>Jean-Pierre Dubois</h4>
+                            <p>Alapító Mester</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections" class="collections">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Kollekciók</span>
+                <h2 class="section-title">Exkluzív alkotások</h2>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-item" data-category="signature">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Signature Collection">
+                        <div class="collection-overlay">
+                            <div class="overlay-content">
+                                <h3>Signature Collection</h3>
+                                <p>Mester aláírás kollekció</p>
+                                <button class="btn btn-outline-light">Felfedezés</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-item" data-category="seasonal">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Seasonal Collection">
+                        <div class="collection-overlay">
+                            <div class="overlay-content">
+                                <h3>Seasonal Delights</h3>
+                                <p>Szezonális különlegességek</p>
+                                <button class="btn btn-outline-light">Felfedezés</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-item" data-category="chocolate">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1511381939415-e44015466834?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Chocolate Collection">
+                        <div class="collection-overlay">
+                            <div class="overlay-content">
+                                <h3>Chocolate Artistry</h3>
+                                <p>Csokoládé művészet</p>
+                                <button class="btn btn-outline-light">Felfedezés</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-item" data-category="wedding">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wedding Collection">
+                        <div class="collection-overlay">
+                            <div class="overlay-content">
+                                <h3>Wedding Couture</h3>
+                                <p>Esküvői haute couture</p>
+                                <button class="btn btn-outline-light">Felfedezés</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Masterpieces Section -->
+    <section id="masterpieces" class="masterpieces">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Mesterművek</span>
+                <h2 class="section-title">Kiemelt alkotások</h2>
+            </div>
+            
+            <div class="masterpieces-container">
+                <div class="masterpiece-item">
+                    <div class="masterpiece-image">
+                        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Opera Cake">
+                    </div>
+                    <div class="masterpiece-content">
+                        <h3>Opéra Royale</h3>
+                        <p class="price">18,500 Ft</p>
+                        <p class="description">Klasszikus francia opéra torta újragondolva. Mandulás piskóta, kávé buttercream, csokoládé ganache és arany díszítés.</p>
+                        <div class="ingredients">
+                            <span class="ingredient">Valrhona csokoládé</span>
+                            <span class="ingredient">Madagaszkári vanília</span>
+                            <span class="ingredient">Francia vaj</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="showMasterpiece('opera')">Részletek</button>
+                    </div>
+                </div>
+                
+                <div class="masterpiece-item">
+                    <div class="masterpiece-image">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Mille-feuille">
+                    </div>
+                    <div class="masterpiece-content">
+                        <h3>Mille-feuille Impérial</h3>
+                        <p class="price">4,200 Ft</p>
+                        <p class="description">Ezer leveles tészta tökéletesre készítve, vaníliakrém és karamellizált cukor tetővel. A francia cukrászat koronagyémántja.</p>
+                        <div class="ingredients">
+                            <span class="ingredient">Leveles tészta</span>
+                            <span class="ingredient">Crème pâtissière</span>
+                            <span class="ingredient">Karamell</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="showMasterpiece('millefeuille')">Részletek</button>
+                    </div>
+                </div>
+                
+                <div class="masterpiece-item">
+                    <div class="masterpiece-image">
+                        <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Chocolate Sculpture">
+                    </div>
+                    <div class="masterpiece-content">
+                        <h3>Sculpture Chocolat</h3>
+                        <p class="price">12,800 Ft</p>
+                        <p class="description">Kézzel formázott csokoládé szobor, belga csokoládéból. Minden darab egyedi művészeti alkotás.</p>
+                        <div class="ingredients">
+                            <span class="ingredient">Belga csokoládé</span>
+                            <span class="ingredient">Arany por</span>
+                            <span class="ingredient">Kézműves technika</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="showMasterpiece('sculpture')">Részletek</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atelier Section -->
+    <section id="atelier" class="atelier">
+        <div class="container">
+            <div class="atelier-content">
+                <div class="atelier-text">
+                    <span class="section-subtitle">Műhely</span>
+                    <h2 class="section-title">Ahol a varázslat történik</h2>
+                    <p>Látogasson el műhelyünkbe, ahol mestereink dolgoznak. Minden nap 6 órakor kezdjük a munkát, hogy a legfrissebb alkotásokat kínálhassuk vendégeinknek.</p>
+                    
+                    <div class="atelier-features">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Napi frissesség</h4>
+                                <p>Minden sütemény aznap készül</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <div>
+                                <h4>Kézműves technika</h4>
+                                <p>Hagyományos módszerek</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h4>Prémium alapanyagok</h4>
+                                <p>Csak a legfinomabb összetevők</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary">Műhelylátogatás foglalása</button>
+                </div>
+                
+                <div class="atelier-gallery">
+                    <div class="gallery-grid">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Atelier 1">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Atelier 2">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Atelier 3">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Atelier 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-subtitle">Kapcsolat</span>
+                    <h2 class="section-title">Látogasson el hozzánk</h2>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Cím</h4>
+                                <p>1051 Budapest<br>Váci utca 1.<br>Belváros</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefon</h4>
+                                <p>+36 1 555 0123</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@maestropatisserie.hu</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Nyitvatartás</h4>
+                                <p>Kedd-Szombat: 9:00-19:00<br>Vasárnap: 10:00-17:00<br>Hétfő: Zárva</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Foglalás vagy érdeklődés</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Név</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone">
+                            <label for="phone">Telefon</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="">Szolgáltatás típusa</option>
+                                <option value="reservation">Asztalfoglalás</option>
+                                <option value="order">Rendelés</option>
+                                <option value="event">Esemény</option>
+                                <option value="workshop">Műhelylátogatás</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Üzenet</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Küldés</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand">
+                        <i class="fas fa-crown"></i>
+                        <span class="brand-text">MAESTRO</span>
+                        <span class="brand-subtitle">PATISSERIE</span>
+                    </div>
+                    <p>Ahol a hagyományos francia cukrászat találkozik a modern művészettel.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Navigáció</h4>
+                        <a href="#home">Kezdőlap</a>
+                        <a href="#about">Történetünk</a>
+                        <a href="#collections">Kollekciók</a>
+                        <a href="#masterpieces">Mesterművek</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Szolgáltatások</h4>
+                        <a href="#">Asztalfoglalás</a>
+                        <a href="#">Rendelés</a>
+                        <a href="#">Esemény szervezés</a>
+                        <a href="#">Műhelylátogatás</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Információ</h4>
+                        <a href="#">ÁSZF</a>
+                        <a href="#">Adatvédelem</a>
+                        <a href="#">Kapcsolat</a>
+                        <a href="#">Karrier</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Maestro Patisserie. Minden jog fenntartva.</p>
+                <p>Készítette: <span class="highlight">Luxury Web Design</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Masterpiece Modal -->
+    <div id="masterpiece-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal cart-modal">
+        <div class="modal-content cart-modal-content">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-cart"></i> Kosár</h3>
+                <span class="modal-close cart-close">&times;</span>
+            </div>
+            <div class="cart-body" id="cart-body">
+                <div class="empty-cart" id="empty-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>A kosár üres</p>
+                    <small>Adjon hozzá termékeket a mesterművek közül!</small>
+                </div>
+                <div class="cart-items" id="cart-items"></div>
+            </div>
+            <div class="cart-footer" id="cart-footer" style="display: none;">
+                <div class="cart-total">
+                    <div class="total-row">
+                        <span>Összesen:</span>
+                        <span class="total-price" id="total-price">0 Ft</span>
+                    </div>
+                </div>
+                <div class="cart-actions">
+                    <button class="btn btn-outline" onclick="clearCart()">Kosár ürítése</button>
+                    <button class="btn btn-primary" onclick="checkout()">Rendelés leadása</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
